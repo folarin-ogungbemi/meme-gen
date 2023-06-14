@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Meme from "./components/Meme"
-// import ThingsArray from "./components/ThingsArray";
+import ThingsArray from "./components/ThingsArray";
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Meme />
-      {/* <ThingsArray /> */}
+      <ThingsArray />
     </div>
   );
 }
