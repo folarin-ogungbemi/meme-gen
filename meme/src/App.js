@@ -3,8 +3,9 @@ import Header from "./components/Header";
 import Meme from "./components/Meme"
 import ThingsArray from "./components/ThingsArray";
 import Count from "./components/Count"
-import Boxes from "./component/Boxes"
-import Box from ".component/Box";
+import Boxes from "./components/Boxes"
+import Box from "./components/Box";
+import Forms from "./components/Forms"
 
 function App() {
 
@@ -45,7 +46,7 @@ function App() {
         on={square.on}
         // id={square.id}
         // toggle={toggle}
-        
+
         // alternative to above
         toggle={() => toggle(square.id)}
          />
@@ -65,6 +66,7 @@ function App() {
     <div className="App">
       <Header />
       <Meme />
+      <Forms />
       {squareElement}
       <div className="counter">
             <button className="counter--minus" onClick={subtract}>–</button>
